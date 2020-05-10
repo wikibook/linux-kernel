@@ -1,0 +1,35 @@
+May 27 12:31:29 raspberrypi kernel: [    0.000000] Booting Linux on physical CPU 0x0
+May 27 12:31:29 raspberrypi kernel: [    0.000000] Linux version 4.19.30-v7+ (root@raspberrypi) (gcc version 6.3.0 20170516 (Raspbian 6.3.0-18+rpi1+deb9u1)) #15 SMP Sun May 27 12:24:34 KST 2019
+May 27 12:31:29 raspberrypi kernel: [    0.000000] CPU: ARMv7 Processor [410fd034] revision 4 (ARMv7), cr=10c5383d
+May 27 12:31:29 raspberrypi kernel: [    0.000000] CPU: div instructions available: patching division code
+May 27 12:31:29 raspberrypi kernel: [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+...
+May 27 12:31:29 raspberrypi kernel: [    0.722882] mmc-bcm2835 3f300000.mmc: mmc_debug:0 mmc_debug2:0
+May 27 12:31:29 raspberrypi kernel: [    0.722892] mmc-bcm2835 3f300000.mmc: DMA channel allocated
+May 27 12:31:29 raspberrypi kernel: [    0.722933] [+] process_name: irq/%d-%s caller:(kthread_create_on_node+0x30/0x38) 
+May 27 12:31:29 raspberrypi kernel: [    0.722947] [+] irq_thread handler: irq_thread+0x0/0x20c caller:(kthread_create_on_node+0x30/0x38) 
+May 27 12:31:29 raspberrypi kernel: [    0.722958] CPU: 0 PID: 31 Comm: kworker/0:1 Not tainted 4.14.39-v7+ #15
+May 27 12:31:29 raspberrypi kernel: [    0.722962] Hardware name: BCM2835
+May 27 12:31:29 raspberrypi kernel: [    0.722980] Workqueue: events deferred_probe_work_func
+May 27 12:31:29 raspberrypi kernel: [    0.723006] [<8010ffe0>] (unwind_backtrace) from [<8010c21c>] (show_stack+0x20/0x24)
+May 27 12:31:29 raspberrypi kernel: [    0.723022] [<8010c21c>] (show_stack) from [<8078703c>] (dump_stack+0xc8/0x10c)
+May 27 12:31:29 raspberrypi kernel: [    0.723039] [<8078703c>] (dump_stack) from [<8013d858>] (__kthread_create_on_node+0x1c4/0x1e0)
+May 27 12:31:29 raspberrypi kernel: [    0.723055] [<8013d858>] (__kthread_create_on_node) from [<8013d8a4>] (kthread_create_on_node+0x30/0x38)
+May 27 12:31:29 raspberrypi kernel: [    0.723070] [<8013d8a4>] (kthread_create_on_node) from [<801763bc>] (setup_irq_thread+0x54/0xe4)
+May 27 12:31:29 raspberrypi kernel: [    0.723086] [<801763bc>] (setup_irq_thread) from [<801779fc>] (__setup_irq+0x260/0x730)
+May 27 12:31:29 raspberrypi kernel: [    0.723101] [<801779fc>] (__setup_irq) from [<80178050>] (request_threaded_irq+0xec/0x160)
+May 27 12:31:29 raspberrypi kernel: [    0.723118] [<80178050>] (request_threaded_irq) from [<8017a864>] (devm_request_threaded_irq+0x78/0xcc)
+May 27 12:31:29 raspberrypi kernel: [    0.723140] [<8017a864>] (devm_request_threaded_irq) from [<80633178>] (bcm2835_mmc_probe+0x514/0x644)
+May 27 12:31:29 raspberrypi kernel: [    0.723159] [<80633178>] (bcm2835_mmc_probe) from [<805464c8>] (platform_drv_probe+0x60/0xc0)
+May 27 12:31:29 raspberrypi kernel: [    0.723176] [<805464c8>] (platform_drv_probe) from [<80544a54>] (driver_probe_device+0x244/0x2f8)
+May 27 12:31:29 raspberrypi kernel: [    0.723193] [<80544a54>] (driver_probe_device) from [<80544c7c>] (__device_attach_driver+0xa8/0xdc)
+May 27 12:31:29 raspberrypi kernel: [    0.723210] [<80544c7c>] (__device_attach_driver) from [<80542cac>] (bus_for_each_drv+0x70/0xa4)
+May 27 12:31:29 raspberrypi kernel: [    0.723228] [<80542cac>] (bus_for_each_drv) from [<805446c4>] (__device_attach+0xc0/0x124)
+May 27 12:31:29 raspberrypi kernel: [    0.723245] [<805446c4>] (__device_attach) from [<80544d0c>] (device_initial_probe+0x1c/0x20)
+May 27 12:31:29 raspberrypi kernel: [    0.723261] [<80544d0c>] (device_initial_probe) from [<80543b94>] (bus_probe_device+0x94/0x9c)
+May 27 12:31:29 raspberrypi kernel: [    0.723278] [<80543b94>] (bus_probe_device) from [<80544044>] (deferred_probe_work_func+0x68/0x150)
+May 27 12:31:29 raspberrypi kernel: [    0.723296] [<80544044>] (deferred_probe_work_func) from [<8013726c>] (process_one_work+0x224/0x518)
+May 27 12:31:29 raspberrypi kernel: [    0.723317] [<8013726c>] (process_one_work) from [<80138244>] (worker_thread+0x60/0x5f0)
+May 27 12:31:29 raspberrypi kernel: [    0.723333] [<80138244>] (worker_thread) from [<8013daac>] (kthread+0x144/0x174)
+May 27 12:31:29 raspberrypi kernel: [    0.723348] [<8013daac>] (kthread) from [<801080cc>] (ret_from_fork+0x14/0x28)
+ 

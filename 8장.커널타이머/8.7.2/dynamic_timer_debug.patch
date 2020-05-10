@@ -1,0 +1,81 @@
+diff --git a/drivers/usb/core/hcd.c b/drivers/usb/core/hcd.c
+index 69268aa..83898ab 100644
+--- a/drivers/usb/core/hcd.c
++++ b/drivers/usb/core/hcd.c
+@@ -789,11 +789,17 @@ void usb_hcd_poll_rh_status(struct usb_hcd *hcd)
+ }
+ EXPORT_SYMBOL_GPL(usb_hcd_poll_rh_status);
+ 
++extern void raspbian_trace_debug_info(void);
++extern uint32_t raspbian_debug_state;
++
+ /* timer callback */
+ static void rh_timer_func (struct timer_list *t)
+ {
+ 	struct usb_hcd *_hcd = from_timer(_hcd, t, rh_timer);
+ 
++	if (raspbian_debug_state == 701)
++		raspbian_trace_debug_info();
++
+ 	usb_hcd_poll_rh_status(_hcd);
+ }
+ 
+diff --git a/kernel/softirq.c b/kernel/softirq.c
+index 6f58486..bc1fb19 100644
+--- a/kernel/softirq.c
++++ b/kernel/softirq.c
+@@ -396,6 +396,8 @@ static inline void tick_irq_exit(void)
+ #endif
+ }
+ 
++extern void raspbian_trace_debug_info(void);
++extern uint32_t raspbian_debug_state;
+ /*
+  * Exit an interrupt context. Process softirqs if needed and possible:
+  */
+@@ -423,6 +425,8 @@ inline void raise_softirq_irqoff(unsigned int nr)
+ {
+ 	__raise_softirq_irqoff(nr);
+ 
++	if ( (nr == TIMER_SOFTIRQ) && (raspbian_debug_state == 701) )
++			raspbian_trace_debug_info();
+ 	/*
+ 	 * If we're in an interrupt or softirq, we're done
+ 	 * (this also catches softirq-disabled code). We will
+diff --git a/kernel/time/timer.c b/kernel/time/timer.c
+index ae64cb8..dade54c 100644
+--- a/kernel/time/timer.c
++++ b/kernel/time/timer.c
+@@ -947,6 +947,23 @@ static struct timer_base *lock_timer_base(struct timer_list *timer,
++extern uint32_t raspbian_debug_state;
++
++void raspbian_trace_debug_info(void)
++{
++	void *stack = NULL;
++	struct thread_info *current_thread;
++
++	stack = current->stack;
++	current_thread = (struct thread_info*)stack;
++
++	trace_printk("[-][%s]jiffies_64: %llu, caller:%pS \n",
++			current->comm, jiffies_64, (void *)__builtin_return_address(0));
++
++	trace_printk("[-] in_softirq(): 0x%08x,preempt_count = 0x%08x \n",
++					(unsigned int)in_softirq(), (unsigned int)current_thread->preempt_count);
++}
++
+ #define MOD_TIMER_PENDING_ONLY		0x01
+ #define MOD_TIMER_REDUCE		0x02
+ 
+ static inline int
+ __mod_timer(struct timer_list *timer, unsigned long expires, unsigned int options)
+ {
+@@ -1041,6 +1058,8 @@ __mod_timer(struct timer_list *timer, unsigned long expires, unsigned int option
+ 	debug_activate(timer, expires);
+ 
+ 	timer->expires = expires;
++	if (raspbian_debug_state == 701)
++			raspbian_trace_debug_info();
+ 	/*
+ 	 * If 'idx' was calculated above and the base time did not advance
+ 	 * between calculating 'idx' and possibly switching the base, only

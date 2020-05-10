@@ -1,0 +1,79 @@
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] Booting Linux on physical CPU 0x0
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] Linux version 4.14.39-v7+ (root@raspberrypi) (gcc version 6.3.0 20170516 (Raspbian 6.3.0-18+rpi1+deb9u1)) #16 SMP Wed Jun 6 17:11:09 KST 2018
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] CPU: ARMv7 Processor [410fd034] revision 4 (ARMv7), cr=10c5383d
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] CPU: div instructions available: patching division code
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+...
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] CPU: 0 PID: 0 Comm: swapper/0 Not tainted 4.14.39-v7+ #16
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] Hardware name: BCM2835
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] [<80110000>] (unwind_backtrace) from [<8010c23c>] (show_stack+0x20/0x24)
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] [<8010c23c>] (show_stack) from [<80786ffc>] (dump_stack+0xc8/0x10c)
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] [<80786ffc>] (dump_stack) from [<80123cb8>] (open_softirq+0x24/0x28)
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] [<80123cb8>] (open_softirq) from [<80b0bd90>] (init_sched_fair_class+0x24/0x48)
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] [<80b0bd90>] (init_sched_fair_class) from [<80b0bd18>] (sched_init+0x3c8/0x41c)
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] [<80b0bd18>] (sched_init) from [<80b00c70>] (start_kernel+0x21c/0x3e0)
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] [<80b00c70>] (start_kernel) from [<0000807c>] (0x807c)
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] Hierarchical RCU implementation.
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] CPU: 0 PID: 0 Comm: swapper/0 Not tainted 4.14.39-v7+ #16
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] Hardware name: BCM2835
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] [<80110000>] (unwind_backtrace) from [<8010c23c>] (show_stack+0x20/0x24)
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] [<8010c23c>] (show_stack) from [<80786ffc>] (dump_stack+0xc8/0x10c)
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] [<80786ffc>] (dump_stack) from [<80123cb8>] (open_softirq+0x24/0x28)
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] [<80123cb8>] (open_softirq) from [<80b0d8c0>] (rcu_init+0x300/0x374)
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] [<80b0d8c0>] (rcu_init) from [<80b00ca8>] (start_kernel+0x254/0x3e0)
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] [<80b00ca8>] (start_kernel) from [<0000807c>] (0x807c)
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] NR_IRQS: 16, nr_irqs: 16, preallocated irqs: 16
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] CPU: 0 PID: 0 Comm: swapper/0 Not tainted 4.14.39-v7+ #16
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] Hardware name: BCM2835
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] [<80110000>] (unwind_backtrace) from [<8010c23c>] (show_stack+0x20/0x24)
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] [<8010c23c>] (show_stack) from [<80786ffc>] (dump_stack+0xc8/0x10c)
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] [<80786ffc>] (dump_stack) from [<80123cb8>] (open_softirq+0x24/0x28)
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] [<80123cb8>] (open_softirq) from [<80b0e0d4>] (init_timers+0xa0/0xa4)
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] [<80b0e0d4>] (init_timers) from [<80b00cbc>] (start_kernel+0x268/0x3e0)
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] [<80b00cbc>] (start_kernel) from [<0000807c>] (0x807c)
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] CPU: 0 PID: 0 Comm: swapper/0 Not tainted 4.14.39-v7+ #16
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] Hardware name: BCM2835
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] [<80110000>] (unwind_backtrace) from [<8010c23c>] (show_stack+0x20/0x24)
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] [<8010c23c>] (show_stack) from [<80786ffc>] (dump_stack+0xc8/0x10c)
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] [<80786ffc>] (dump_stack) from [<80b091e4>] (softirq_init+0x80/0xd0)
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] [<80b091e4>] (softirq_init) from [<80b00cc4>] (start_kernel+0x270/0x3e0)
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] [<80b00cc4>] (start_kernel) from [<0000807c>] (0x807c)
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] CPU: 0 PID: 0 Comm: swapper/0 Not tainted 4.14.39-v7+ #16
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] Hardware name: BCM2835
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] [<80110000>] (unwind_backtrace) from [<8010c23c>] (show_stack+0x20/0x24)
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] [<8010c23c>] (show_stack) from [<80786ffc>] (dump_stack+0xc8/0x10c)
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] [<80786ffc>] (dump_stack) from [<80b091f4>] (softirq_init+0x90/0xd0)
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] [<80b091f4>] (softirq_init) from [<80b00cc4>] (start_kernel+0x270/0x3e0)
+Jun  6 17:15:38 raspberrypi kernel: [    0.000000] [<80b00cc4>] (start_kernel) from [<0000807c>] (0x807c)
+...
+Jun  6 17:15:38 raspberrypi kernel: [    0.059140] CPU: 0 PID: 1 Comm: swapper/0 Not tainted 4.14.39-v7+ #16
+Jun  6 17:15:38 raspberrypi kernel: [    0.059145] Hardware name: BCM2835
+Jun  6 17:15:38 raspberrypi kernel: [    0.059171] [<80110000>] (unwind_backtrace) from [<8010c23c>] (show_stack+0x20/0x24)
+Jun  6 17:15:38 raspberrypi kernel: [    0.059189] [<8010c23c>] (show_stack) from [<80786ffc>] (dump_stack+0xc8/0x10c)
+Jun  6 17:15:38 raspberrypi kernel: [    0.059208] [<80786ffc>] (dump_stack) from [<80123cb8>] (open_softirq+0x24/0x28)
+Jun  6 17:15:38 raspberrypi kernel: [    0.059227] [<80123cb8>] (open_softirq) from [<80b30b00>] (blk_softirq_init+0x78/0xac)
+Jun  6 17:15:38 raspberrypi kernel: [    0.059245] [<80b30b00>] (blk_softirq_init) from [<80101c3c>] (do_one_initcall+0x54/0x17c)
+Jun  6 17:15:38 raspberrypi kernel: [    0.059263] [<80101c3c>] (do_one_initcall) from [<80b01058>] (kernel_init_freeable+0x224/0x2b8)
+Jun  6 17:15:38 raspberrypi kernel: [    0.059280] [<80b01058>] (kernel_init_freeable) from [<8079bfd0>] (kernel_init+0x18/0x124)
+Jun  6 17:15:38 raspberrypi kernel: [    0.059295] [<8079bfd0>] (kernel_init) from [<801080ec>] (ret_from_fork+0x14/0x28)
+...
+Jun  6 17:15:38 raspberrypi kernel: [    0.070689] CPU: 0 PID: 1 Comm: swapper/0 Not tainted 4.14.39-v7+ #16
+Jun  6 17:15:38 raspberrypi kernel: [    0.070694] Hardware name: BCM2835
+Jun  6 17:15:38 raspberrypi kernel: [    0.070719] [<80110000>] (unwind_backtrace) from [<8010c23c>] (show_stack+0x20/0x24)
+Jun  6 17:15:38 raspberrypi kernel: [    0.070737] [<8010c23c>] (show_stack) from [<80786ffc>] (dump_stack+0xc8/0x10c)
+Jun  6 17:15:38 raspberrypi kernel: [    0.070755] [<80786ffc>] (dump_stack) from [<80123cb8>] (open_softirq+0x24/0x28)
+Jun  6 17:15:38 raspberrypi kernel: [    0.070773] [<80123cb8>] (open_softirq) from [<80b41be8>] (net_dev_init+0x1ac/0x214)
+Jun  6 17:15:38 raspberrypi kernel: [    0.070790] [<80b41be8>] (net_dev_init) from [<80101c3c>] (do_one_initcall+0x54/0x17c)
+Jun  6 17:15:38 raspberrypi kernel: [    0.070807] [<80101c3c>] (do_one_initcall) from [<80b01058>] (kernel_init_freeable+0x224/0x2b8)
+Jun  6 17:15:38 raspberrypi kernel: [    0.070824] [<80b01058>] (kernel_init_freeable) from [<8079bfd0>] (kernel_init+0x18/0x124)
+Jun  6 17:15:38 raspberrypi kernel: [    0.070840] [<8079bfd0>] (kernel_init) from [<801080ec>] (ret_from_fork+0x14/0x28)
+Jun  6 17:15:38 raspberrypi kernel: [    0.070849] CPU: 0 PID: 1 Comm: swapper/0 Not tainted 4.14.39-v7+ #16
+Jun  6 17:15:38 raspberrypi kernel: [    0.070853] Hardware name: BCM2835
+Jun  6 17:15:38 raspberrypi kernel: [    0.070867] [<80110000>] (unwind_backtrace) from [<8010c23c>] (show_stack+0x20/0x24)
+Jun  6 17:15:38 raspberrypi kernel: [    0.070881] [<8010c23c>] (show_stack) from [<80786ffc>] (dump_stack+0xc8/0x10c)
+Jun  6 17:15:38 raspberrypi kernel: [    0.070896] [<80786ffc>] (dump_stack) from [<80123cb8>] (open_softirq+0x24/0x28)
+Jun  6 17:15:38 raspberrypi kernel: [    0.070911] [<80123cb8>] (open_softirq) from [<80b41bf8>] (net_dev_init+0x1bc/0x214)
+Jun  6 17:15:38 raspberrypi kernel: [    0.070925] [<80b41bf8>] (net_dev_init) from [<80101c3c>] (do_one_initcall+0x54/0x17c)
+Jun  6 17:15:38 raspberrypi kernel: [    0.070940] [<80101c3c>] (do_one_initcall) from [<80b01058>] (kernel_init_freeable+0x224/0x2b8)
+Jun  6 17:15:38 raspberrypi kernel: [    0.070954] [<80b01058>] (kernel_init_freeable) from [<8079bfd0>] (kernel_init+0x18/0x124)
+Jun  6 17:15:38 raspberrypi kernel: [    0.070968] [<8079bfd0>] (kernel_init) from [<801080ec>] (ret_from_fork+0x14/0x28) 

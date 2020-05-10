@@ -1,0 +1,61 @@
+diff --git a/kernel/locking/spinlock.c b/kernel/locking/spinlock.c
+index 936f3d1..18edec5 100644
+--- a/kernel/locking/spinlock.c
++++ b/kernel/locking/spinlock.c
+@@ -21,6 +21,7 @@
+ #include <linux/interrupt.h>
+ #include <linux/debug_locks.h>
+ #include <linux/export.h>
++#include <linux/sched.h>
+ 
+ /*
+  * If lockdep is enabled then we use the non-preemption spin-ops
+@@ -146,10 +147,27 @@ void __lockfunc _raw_spin_lock(raw_spinlock_t *lock)
+ EXPORT_SYMBOL(_raw_spin_lock);
+ #endif
+ 
++extern uint32_t raspbian_debug_state;
+ #ifndef CONFIG_INLINE_SPIN_LOCK_IRQSAVE
+ unsigned long __lockfunc _raw_spin_lock_irqsave(raw_spinlock_t *lock)
+ {
+-	return __raw_spin_lock_irqsave(lock);
++	unsigned long ret_flags;
++	arch_spinlock_t lockval;
++
++	if ( 901 == raspbian_debug_state) {
++		lockval = lock->raw_lock;
++		trace_printk("[+] start spin_lock[%p] owner: 0x%x, next: 0x%x ,process:%p \n",
++						lock, lockval.tickets.owner, lockval.tickets.next, current);
++	}
++
++	ret_flags = __raw_spin_lock_irqsave(lock);
++	if ( 901 == raspbian_debug_state) {
++		lockval = lock->raw_lock;
++		trace_printk("[+] end spin_lock[%p] owner: 0x%x, next: 0x%x, process:%p \n",
++						lock, lockval.tickets.owner, lockval.tickets.next, current);
++	}
++
++	return ret_flags;
+ }
+ EXPORT_SYMBOL(_raw_spin_lock_irqsave);
+ #endif
+@@ -181,7 +199,19 @@ EXPORT_SYMBOL(_raw_spin_unlock);
+ #ifndef CONFIG_INLINE_SPIN_UNLOCK_IRQRESTORE
+ void __lockfunc _raw_spin_unlock_irqrestore(raw_spinlock_t *lock, unsigned long flags)
+ {
++	arch_spinlock_t lockval;
++	if ( 901 == raspbian_debug_state) {
++		lockval = lock->raw_lock;
++		trace_printk("[-] start spin_unlock[%p] owner: 0x%x, next: 0x%x, process:%p \n",
++					lock, lockval.tickets.owner, lockval.tickets.next, current);
++	}
+ 	__raw_spin_unlock_irqrestore(lock, flags);
++
++	if ( 901 == raspbian_debug_state) {
++		lockval = lock->raw_lock;
++		trace_printk("[-] end spin_unlock[%p] owner: 0x%x, next: 0x%x, process:%p \n",
++				lock, lockval.tickets.owner, lockval.tickets.next, current);
++	}
+ }
+ EXPORT_SYMBOL(_raw_spin_unlock_irqrestore);
+ #endif

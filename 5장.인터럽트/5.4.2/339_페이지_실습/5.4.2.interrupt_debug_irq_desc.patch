@@ -1,0 +1,54 @@
+diff --git a/drivers/usb/host/dwc_otg/dwc_otg_driver.c b/drivers/usb/host/dwc_otg/dwc_otg_driver.c
+old mode 100644
+new mode 100755
+index 04535c3ef..ea7a3c9cc
+--- a/drivers/usb/host/dwc_otg/dwc_otg_driver.c
++++ b/drivers/usb/host/dwc_otg/dwc_otg_driver.c
+@@ -669,6 +669,37 @@ static int dwc_otg_driver_remove(        struct platform_device *_dev )
+         return REM_RETVAL(0);
+ }
+ 
++static void interrupt_debug_irq_desc(int irq_num)
++{
++	struct irqaction *action;
++	struct irq_desc *desc;
++
++	desc = irq_to_desc(irq_num);
++
++	if (!desc ) {
++		pr_err("invalid desc at %s line: %d\n", __func__, __LINE__);
++		return;
++	}
++
++	action = desc->action;
++
++	if (!action ) {
++		pr_err("invalid action at %s line:%d \n", __func__, __LINE__);
++		return;
++	}
++
++	printk("[+] irq_desc debug start \n");
++
++	printk("irq num: %d name: %8s \n", action->irq , action->name);
++	printk("dev_id:0x%x \n", (unsigned int)action->dev_id);
++
++	if (action->handler) {
++		printk("interrupt handler: %pF \n", action->handler);
++	}
++
++	printk("[-] irq_desc debug end \n");
++}
++
+ /**
+  * This function is called when an lm_device is bound to a
+  * dwc_otg_driver. It creates the driver components required to
+@@ -915,6 +946,9 @@ static int dwc_otg_driver_probe(
+ 	retval = request_irq(devirq, dwc_otg_common_irq,
+                              IRQF_SHARED,
+                              "dwc_otg", dwc_otg_device);
++                             
++    interrupt_debug_irq_desc(devirq);
++                             
+ 	if (retval) {
+ 		DWC_ERROR("request of irq%d failed\n", devirq);
+ 		retval = -EBUSY;

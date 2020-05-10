@@ -1,0 +1,14 @@
+diff --git a/arch/arm/kernel/signal.c b/arch/arm/kernel/signal.c
+index b908382..69c81d7 100644
+--- a/arch/arm/kernel/signal.c
++++ b/arch/arm/kernel/signal.c
+@@ -476,6 +476,9 @@ setup_return(struct pt_regs *regs, struct ksignal *ksig,
+ 		}
+ 	}
+ 
++	trace_printk("[+] handler:0x%lx, sig:%d n",
++				(unsigned long)handler, ksig->sig);
++
+ 	regs->ARM_r0 = ksig->sig;
+ 	regs->ARM_sp = (unsigned long)frame;
+ 	regs->ARM_lr = retcode;

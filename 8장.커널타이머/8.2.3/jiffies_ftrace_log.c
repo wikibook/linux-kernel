@@ -1,0 +1,114 @@
+# tracer: function
+#
+#                              _-----=> irqs-off
+#                             / _----=> need-resched
+#                            | / _---=> hardirq/softirq
+#                            || / _--=> preempt-depth
+#                            ||| /     delay
+#           TASK-PID   CPU#  ||||    TIMESTAMP  FUNCTION
+#              | |       |   ||||       |         |
+          <idle>-0     [000] d...   228.989960: do_timer: [+]jiffies_64: 4294960195, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d...   228.989960: do_timer: [+]jiffies_64: 4294960195, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d...   229.000074: do_timer: [+]jiffies_64: 4294960196, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d...   229.010071: do_timer: [+]jiffies_64: 4294960197, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d...   229.020071: do_timer: [+]jiffies_64: 4294960198, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d...   229.030071: do_timer: [+]jiffies_64: 4294960199, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d...   229.039956: do_timer: [+]jiffies_64: 4294960200, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  lxpanel-722   [003] d.h.   229.049978: do_timer: [+]jiffies_64: 4294960201, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  Xorg-442   [001] d.h.   229.059999: do_timer: [+]jiffies_64: 4294960202, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [003] d.h.   229.069992: do_timer: [+]jiffies_64: 4294960203, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d...   229.079965: do_timer: [+]jiffies_64: 4294960204, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [003] d.h.   229.089974: do_timer: [+]jiffies_64: 4294960205, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  gdbus-816   [000] d.h.   229.099990: do_timer: [+]jiffies_64: 4294960206, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [003] d.h.   229.110006: do_timer: [+]jiffies_64: 4294960207, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [003] d.h.   229.119966: do_timer: [+]jiffies_64: 4294960208, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d...   229.129962: do_timer: [+]jiffies_64: 4294960209, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [003] d.h.   229.139965: do_timer: [+]jiffies_64: 4294960210, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d...   229.149958: do_timer: [+]jiffies_64: 4294960211, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d...   229.160072: do_timer: [+]jiffies_64: 4294960212, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d...   229.170071: do_timer: [+]jiffies_64: 4294960213, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d...   229.180070: do_timer: [+]jiffies_64: 4294960214, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d.h.   229.190006: do_timer: [+]jiffies_64: 4294960215, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d.h.   229.200011: do_timer: [+]jiffies_64: 4294960216, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [003] d.h.   229.209968: do_timer: [+]jiffies_64: 4294960217, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [003] d.h.   229.219966: do_timer: [+]jiffies_64: 4294960218, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [003] d.h.   229.229966: do_timer: [+]jiffies_64: 4294960219, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d.h.   229.239968: do_timer: [+]jiffies_64: 4294960220, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.250074: do_timer: [+]jiffies_64: 4294960221, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.260071: do_timer: [+]jiffies_64: 4294960222, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.270071: do_timer: [+]jiffies_64: 4294960223, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [003] d.h.   229.280011: do_timer: [+]jiffies_64: 4294960224, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [003] d.h.   229.289967: do_timer: [+]jiffies_64: 4294960225, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [003] d.h.   229.299968: do_timer: [+]jiffies_64: 4294960226, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [003] d.h.   229.309967: do_timer: [+]jiffies_64: 4294960227, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [003] d.h.   229.319965: do_timer: [+]jiffies_64: 4294960228, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.329958: do_timer: [+]jiffies_64: 4294960229, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.340072: do_timer: [+]jiffies_64: 4294960230, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.350071: do_timer: [+]jiffies_64: 4294960231, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.360071: do_timer: [+]jiffies_64: 4294960232, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.370071: do_timer: [+]jiffies_64: 4294960233, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.380071: do_timer: [+]jiffies_64: 4294960234, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.390074: do_timer: [+]jiffies_64: 4294960235, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.400071: do_timer: [+]jiffies_64: 4294960236, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.410070: do_timer: [+]jiffies_64: 4294960237, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.420070: do_timer: [+]jiffies_64: 4294960238, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.430071: do_timer: [+]jiffies_64: 4294960239, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.440071: do_timer: [+]jiffies_64: 4294960240, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.450070: do_timer: [+]jiffies_64: 4294960241, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.460070: do_timer: [+]jiffies_64: 4294960242, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.470070: do_timer: [+]jiffies_64: 4294960243, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.480070: do_timer: [+]jiffies_64: 4294960244, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.490070: do_timer: [+]jiffies_64: 4294960245, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.500070: do_timer: [+]jiffies_64: 4294960246, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.510071: do_timer: [+]jiffies_64: 4294960247, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.520070: do_timer: [+]jiffies_64: 4294960248, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.530071: do_timer: [+]jiffies_64: 4294960249, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.539956: do_timer: [+]jiffies_64: 4294960250, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.550071: do_timer: [+]jiffies_64: 4294960251, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.560071: do_timer: [+]jiffies_64: 4294960252, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.570072: do_timer: [+]jiffies_64: 4294960253, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.580070: do_timer: [+]jiffies_64: 4294960254, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.590070: do_timer: [+]jiffies_64: 4294960255, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.600070: do_timer: [+]jiffies_64: 4294960256, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.610070: do_timer: [+]jiffies_64: 4294960257, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.620070: do_timer: [+]jiffies_64: 4294960258, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.630070: do_timer: [+]jiffies_64: 4294960259, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.640070: do_timer: [+]jiffies_64: 4294960260, caller:tick_do_update_jiffies64.part.0+0xa0/0x180
+		  <idle>-0     [000] d...   229.650070: do_timer: [+]jiffies_64: 4294960261, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d...   229.660070: do_timer: [+]jiffies_64: 4294960262, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d...   229.670070: do_timer: [+]jiffies_64: 4294960263, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d...   229.680070: do_timer: [+]jiffies_64: 4294960264, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  lxpanel-722   [003] d.h.   229.689979: do_timer: [+]jiffies_64: 4294960265, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [003] d.h.   229.700016: do_timer: [+]jiffies_64: 4294960266, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [003] d.h.   229.709972: do_timer: [+]jiffies_64: 4294960267, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d...   229.719962: do_timer: [+]jiffies_64: 4294960268, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [003] d.h.   229.730004: do_timer: [+]jiffies_64: 4294960269, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d...   229.739959: do_timer: [+]jiffies_64: 4294960270, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [003] d.h.   229.749966: do_timer: [+]jiffies_64: 4294960271, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d...   229.759958: do_timer: [+]jiffies_64: 4294960272, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [003] d.h.   229.769965: do_timer: [+]jiffies_64: 4294960273, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  gdbus-816   [000] d.h.   229.779991: do_timer: [+]jiffies_64: 4294960274, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d.h.   229.790005: do_timer: [+]jiffies_64: 4294960275, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [003] d.h.   229.799969: do_timer: [+]jiffies_64: 4294960276, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d...   229.809958: do_timer: [+]jiffies_64: 4294960277, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [003] d.h.   229.819966: do_timer: [+]jiffies_64: 4294960278, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d...   229.829958: do_timer: [+]jiffies_64: 4294960279, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d...   229.840074: do_timer: [+]jiffies_64: 4294960280, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d...   229.850071: do_timer: [+]jiffies_64: 4294960281, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d...   229.860070: do_timer: [+]jiffies_64: 4294960282, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d...   229.870070: do_timer: [+]jiffies_64: 4294960283, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d...   229.880070: do_timer: [+]jiffies_64: 4294960284, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  lxpanel-722   [003] d.h.   229.889972: do_timer: [+]jiffies_64: 4294960285, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  gdbus-685   [001] d.h.   229.900004: do_timer: [+]jiffies_64: 4294960286, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [003] d.h.   229.910010: do_timer: [+]jiffies_64: 4294960287, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d...   229.919963: do_timer: [+]jiffies_64: 4294960288, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [003] d.h.   229.929979: do_timer: [+]jiffies_64: 4294960289, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d...   229.939962: do_timer: [+]jiffies_64: 4294960290, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [003] d.h.   229.949966: do_timer: [+]jiffies_64: 4294960291, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d...   229.959958: do_timer: [+]jiffies_64: 4294960292, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d...   229.970072: do_timer: [+]jiffies_64: 4294960293, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [000] d...   229.980071: do_timer: [+]jiffies_64: 4294960294, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  ibus-x11-706   [003] d.h.   229.989991: do_timer: [+]jiffies_64: 4294960295, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [003] d.h.   230.000012: do_timer: [+]jiffies_64: 4294960296, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+		  <idle>-0     [003] d.h.   230.009967: do_timer: [+]jiffies_64: 4294960297, caller:tick_do_update_jiffies64.part.0+0xa0/0x180 
+ 		  

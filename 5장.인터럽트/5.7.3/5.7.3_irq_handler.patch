@@ -1,0 +1,17 @@
+diff --git a/kernel/irq/handle.c b/kernel/irq/handle.c
+index 79f987b94..2c2ec3f63 100644
+--- a/kernel/irq/handle.c
++++ b/kernel/irq/handle.c
+@@ -142,8 +142,13 @@ irqreturn_t __handle_irq_event_percpu(struct irq_desc *desc, unsigned int *flags
+ 
+ 	for_each_action_of_desc(desc, action) {
+ 		irqreturn_t res;
++		void *irq_handler = (void*)action->handler;
+ 
+ 		trace_irq_handler_entry(irq, action);
++
++		trace_printk("[+] irq:[%d] handler: %pS caller:(%pS) \n", 
++						irq, irq_handler, (void *)__builtin_return_address(0));
+ 		res = action->handler(irq, action->dev_id);
+ 		trace_irq_handler_exit(irq, action, res);
+ 

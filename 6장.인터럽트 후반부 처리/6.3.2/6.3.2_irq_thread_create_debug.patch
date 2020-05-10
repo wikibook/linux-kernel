@@ -1,0 +1,33 @@
+diff --git a/kernel/kthread.c b/kernel/kthread.c
+old mode 100644
+new mode 100755
+index 087d18d77..2ac4790fc
+--- a/kernel/kthread.c
++++ b/kernel/kthread.c
+@@ -290,6 +290,8 @@ struct task_struct *__kthread_create_on_node(int (*threadfn)(void *data),
+ 	struct task_struct *task;
+ 	struct kthread_create_info *create = kmalloc(sizeof(*create),
+ 						     GFP_KERNEL);
++	int irq_thread_enable = !strncmp(namefmt, "irq", 3);
++	char *process_name = &namefmt[0];
+ 
+ 	if (!create)
+ 		return ERR_PTR(-ENOMEM);
+@@ -298,6 +300,17 @@ struct task_struct *__kthread_create_on_node(int (*threadfn)(void *data),
+ 	create->node = node;
+ 	create->done = &done;
+ 
++	if ( process_name ) {
++		printk("[+] process_name: %s caller:(%pS) \n", process_name, (void *)__builtin_return_address(0));
++    }
++
++	if (irq_thread_enable) {
++		void *irq_threadfn = (void*)threadfn;
++
++		printk("[+] irq_thread handler: %pS caller:(%pS) \n", irq_threadfn, (void *)__builtin_return_address(0));
++		dump_stack();
++	}
++
+ 	spin_lock(&kthread_create_lock);
+ 	list_add_tail(&create->list, &kthread_create_list);
+ 	spin_unlock(&kthread_create_lock);

@@ -1,0 +1,52 @@
+diff --git a/drivers/mailbox/bcm2835-mailbox.c b/drivers/mailbox/bcm2835-mailbox.c
+old mode 100644
+new mode 100755
+index a03aeed2e..9df533b77
+--- a/drivers/mailbox/bcm2835-mailbox.c
++++ b/drivers/mailbox/bcm2835-mailbox.c
+@@ -72,6 +72,23 @@ static struct bcm2835_mbox *bcm2835_link_mbox(struct mbox_chan *link)
+ 	return container_of(link->mbox, struct bcm2835_mbox, controller);
+ }
+ 
++static irqreturn_t bcm2835_mbox_threaded_irq(int irq, void *dev_id)
++{
++	void *stack;
++	struct thread_info *current_thread;
++
++	stack = current->stack;
++	current_thread = (struct thread_info*)stack;
++
++	trace_printk("irq=%d, process: %s \n", irq, current->comm);
++	trace_printk("[+] in_interrupt: 0x%08x,preempt_count = 0x%08x, stack=0x%08lx \n",
++		(unsigned int)in_interrupt(), (unsigned int)current_thread->preempt_count, (long unsigned int)stack);
++
++	dump_stack();
++
++	return IRQ_HANDLED;
++}
++
+ static irqreturn_t bcm2835_mbox_irq(int irq, void *dev_id)
+ {
+ 	struct bcm2835_mbox *mbox = dev_id;
+@@ -83,7 +100,7 @@ static irqreturn_t bcm2835_mbox_irq(int irq, void *dev_id)
+ 		dev_dbg(dev, "Reply 0x%08X\n", msg);
+ 		mbox_chan_received_data(link, &msg);
+ 	}
+-	return IRQ_HANDLED;
++	return IRQ_WAKE_THREAD;
+ }
+ 
+ static int bcm2835_send_data(struct mbox_chan *link, void *data)
+@@ -153,9 +170,12 @@ static int bcm2835_mbox_probe(struct platform_device *pdev)
+ 	if (mbox == NULL)
+ 		return -ENOMEM;
+ 	spin_lock_init(&mbox->lock);
+-
++
+- 	ret = devm_request_irq(dev, platform_get_irq(pdev, 0),
+-			       bcm2835_mbox_irq, 0, dev_name(dev), mbox);
++	ret = devm_request_threaded_irq(dev, platform_get_irq(pdev, 0),
++						bcm2835_mbox_irq, bcm2835_mbox_threaded_irq, 0, dev_name(dev), mbox);
+ 	if (ret) {
+ 		dev_err(dev, "Failed to register a mailbox IRQ handler: %d\n",
+ 			ret);

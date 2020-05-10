@@ -1,0 +1,54 @@
+diff --git a/mm/slub.c b/mm/slub.c
+index d8116a4..e48b885 100644
+--- a/mm/slub.c
++++ b/mm/slub.c
+@@ -3752,12 +3752,37 @@ static int __init setup_slub_min_objects(char *str)
+ }
+ 
+ __setup("slub_min_objects=", setup_slub_min_objects);
++extern uint32_t raspbian_debug_state;
++static unsigned int kmalloc_execute_times = 0;
++
++void trace_irq_race_dummy_call(void)
++{
++	void *stack;
++	struct thread_info *current_thread;
++
++	stack = current->stack;
++			current_thread = (struct thread_info*)stack;
++
++	trace_printk("[++] comm:%s, pid:%d, in_interrupt(): 0x%08x,preempt_count = 0x%08x \n",
++			current->comm, current->pid, (unsigned int)in_interrupt(), (unsigned int)current_thread->preempt_count);
++}
+ 
+ void *__kmalloc(size_t size, gfp_t flags)
+ {
+ 	struct kmem_cache *s;
+ 	void *ret;
+ 
++	if ( raspbian_debug_state == 923) {
++		trace_printk("[+] comm: %s, pid: %d, kmalloc_times: %u from(%pS) \n",
++			current->comm, current->pid, kmalloc_execute_times, (void*)__builtin_return_address(0));
++
++		kmalloc_execute_times++;
++
++		if ( in_interrupt()) {
++			trace_irq_race_dummy_call();
++		}
++	}
++
+ 	if (unlikely(size > KMALLOC_MAX_CACHE_SIZE))
+ 		return kmalloc_large(size, flags);
+ 
+@@ -3772,6 +3797,11 @@ void *__kmalloc(size_t size, gfp_t flags)
+ 
+ 	kasan_kmalloc(s, ret, size, flags);
+ 
++	if ( raspbian_debug_state == 923) {
++		trace_printk("[-] comm: %s, pid: %d, kmalloc_times: %u from(%pS) \n",
++			current->comm, current->pid, kmalloc_execute_times, (void*)__builtin_return_address(0));
++	}
++
+ 	return ret;
+ }
+ EXPORT_SYMBOL(__kmalloc);

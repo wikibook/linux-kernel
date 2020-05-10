@@ -1,0 +1,62 @@
+diff --git a/drivers/mailbox/bcm2835-mailbox.c b/drivers/mailbox/bcm2835-mailbox.c
+old mode 100644
+new mode 100755
+index a03aeed2e..e849bc2f4
+--- a/drivers/mailbox/bcm2835-mailbox.c
++++ b/drivers/mailbox/bcm2835-mailbox.c
+@@ -34,10 +34,23 @@
+ #include <linux/platform_device.h>
+ #include <linux/spinlock.h> 
++#include <linux/workqueue.h>
++#include <linux/kernel_stat.h>
++struct work_struct bcm2835_mbox_work;
++
+ /* Mailboxes */
+ #define ARM_0_MAIL0	0x00
+ #define ARM_0_MAIL1	0x20 
+
+ /*
+  * Mailbox registers. We basically only support mailbox 0 & 1. We
+  * deliver to the VC in mailbox 1, it delivers to us in mailbox 0. See
+@@ -72,6 +85,49 @@ static struct bcm2835_mbox *bcm2835_link_mbox(struct mbox_chan *link)
+ 	return container_of(link->mbox, struct bcm2835_mbox, controller);
+ }
+ 
++
++void bcm2835_mbox_work_callback(struct work_struct *ignored)
++{
++	void *stack;
++	struct thread_info *current_thread;
++
++	stack = current->stack;
++	current_thread = (struct thread_info*)stack;
++
++	trace_printk("current process: %s\n", current->comm);
++	trace_printk("[+] in_interrupt:0x%08x,preempt_count = 0x%08x, stack=0x%08lx \n",
++			(unsigned int)in_interrupt(), (unsigned int)current_thread->preempt_count, (long unsigned int)stack);
++
++	dump_stack();
++}
++
+ static irqreturn_t bcm2835_mbox_irq(int irq, void *dev_id)
+ {
+ 	struct bcm2835_mbox *mbox = dev_id;
+@@ -83,6 +139,11 @@ static irqreturn_t bcm2835_mbox_irq(int irq, void *dev_id)
+ 		dev_dbg(dev, "Reply 0x%08X\n", msg);
+ 		mbox_chan_received_data(link, &msg);
+ 	}
++
++	schedule_work(&bcm2835_mbox_work);
++
+ 	return IRQ_HANDLED;
+ }
+ 
+@@ -154,6 +215,9 @@ static int bcm2835_mbox_probe(struct platform_device *pdev)
+ 		return -ENOMEM;
+ 	spin_lock_init(&mbox->lock);
+ 
++	INIT_WORK(&bcm2835_mbox_work, bcm2835_mbox_work_callback);
++
+ 	ret = devm_request_irq(dev, platform_get_irq(pdev, 0),
+ 			       bcm2835_mbox_irq, 0, dev_name(dev), mbox);
+ 	if (ret) {

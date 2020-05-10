@@ -1,0 +1,54 @@
+diff --git a/kernel/locking/mutex.c b/kernel/locking/mutex.c
+index 3f8a351..a4c6e55 100644
+--- a/kernel/locking/mutex.c
++++ b/kernel/locking/mutex.c
+@@ -249,12 +249,26 @@ static void __sched __mutex_lock_slowpath(struct mutex *lock);
+  *
+  * This function is similar to (but not equivalent to) down().
+  */
++
++extern uint32_t raspbian_debug_state;
+ void __sched mutex_lock(struct mutex *lock)
+ {
++	void *mutex_addr = NULL;
++
++	if ( 902 == raspbian_debug_state) {
++		mutex_addr = (void*)lock;
++		trace_printk("[+][fastpath] mutex_lock[%p] start.. owner:%lx, current_process:%lx\n",
++						mutex_addr, atomic_long_read(&lock->owner), (long)current);
++	}
+ 	might_sleep();
+ 
+ 	if (!__mutex_trylock_fast(lock))
+ 		__mutex_lock_slowpath(lock);
++
++	if (902 == raspbian_debug_state) {
++		trace_printk("[+][fastpath] mutex_lock[%p] end.. owner:0x%lx, current_process:%lx\n",
++							mutex_addr, atomic_long_read(&lock->owner), (long)current);
++	}
+ }
+ EXPORT_SYMBOL(mutex_lock);
+ #endif
+@@ -706,9 +720,21 @@ static noinline void __sched __mutex_unlock_slowpath(struct mutex *lock, unsigne
+  */
+ void __sched mutex_unlock(struct mutex *lock)
+ {
++	void *mutex_addr = NULL;
++
++	if (902 == raspbian_debug_state) {
++		mutex_addr = (void*)lock;
++		trace_printk("[-][fastpath] mutex_unlock[%p] start.. owner:0x%lx, current_process:%lx\n",
++						mutex_addr, atomic_long_read(&lock->owner), (long)current);
++	}
+ #ifndef CONFIG_DEBUG_LOCK_ALLOC
+-	if (__mutex_unlock_fast(lock))
++	if (__mutex_unlock_fast(lock)) {
++		if (902 == raspbian_debug_state) {
++			trace_printk("[-][fastpath] mutex_unlock[%p] end.. owner:0x%lx, current_process:%lx\n",
++							mutex_addr, atomic_long_read(&lock->owner), (long)current);
++		}
+ 		return;
++	}
+ #endif
+ 	__mutex_unlock_slowpath(lock, _RET_IP_);
+ }

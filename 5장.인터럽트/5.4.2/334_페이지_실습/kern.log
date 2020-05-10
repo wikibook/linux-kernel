@@ -1,0 +1,31 @@
+May 19 15:21:36 raspberrypi kernel: [    0.000000] Booting Linux on physical CPU 0x0
+May 19 15:21:36 raspberrypi kernel: [    0.000000] Linux version 4.19.30-v7+ (root@raspberrypi) (gcc version 6.3.0 20170516 (Raspbian 6.3.0-18+rpi1+deb9u1)) #11 SMP Sat May 19 15:15:59 KST 2019
+May 19 15:21:36 raspberrypi kernel: [    0.000000] CPU: ARMv7 Processor [410fd034] revision 4 (ARMv7), cr=10c5383d
+May 19 15:21:36 raspberrypi kernel: [    0.000000] CPU: div instructions available: patching division code
+May 19 15:21:36 raspberrypi kernel: [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+...
+May 19 15:21:36 raspberrypi kernel: [    0.696159] Dedicated Tx FIFOs mode
+May 19 15:21:36 raspberrypi kernel: [    0.696436] [+][irq_debug] irq_num: 56, func: request_threaded_irq, line:1777, caller:pcd_init+0x138/0x240 
+May 19 15:21:36 raspberrypi kernel: [    0.696449] CPU: 0 PID: 1 Comm: swapper/0 Not tainted 4.19.30-v7+ #11
+May 19 15:21:36 raspberrypi kernel: [    0.696456] Hardware name: BCM2835
+May 19 15:21:36 raspberrypi kernel: [    0.696476] [<8010ffe0>] (unwind_backtrace) from [<8010c21c>] (show_stack+0x20/0x24)
+May 19 15:21:36 raspberrypi kernel: [    0.696494] [<8010c21c>] (show_stack) from [<8078721c>] (dump_stack+0xc8/0x10c)
+May 19 15:21:36 raspberrypi kernel: [    0.696514] [<8078721c>] (dump_stack) from [<801780f0>] (request_threaded_irq+0x1a4/0x1a8)
+May 19 15:21:36 raspberrypi kernel: [    0.696531] [<801780f0>] (request_threaded_irq) from [<805d38e4>] (pcd_init+0x138/0x240)
+May 19 15:21:36 raspberrypi kernel: [    0.696548] [<805d38e4>] (pcd_init) from [<805c5768>] (dwc_otg_driver_probe+0x728/0x884)
+May 19 15:21:36 raspberrypi kernel: [    0.696565] [<805c5768>] (dwc_otg_driver_probe) from [<805464f8>] (platform_drv_probe+0x60/0xc0)
+May 19 15:21:36 raspberrypi kernel: [    0.696583] [<805464f8>] (platform_drv_probe) from [<80544a84>] (driver_probe_device+0x244/0x2f8)
+May 19 15:21:36 raspberrypi kernel: [    0.696603] [<80544a84>] (driver_probe_device) from [<80544c00>] (__driver_attach+0xc8/0xcc)
+May 19 15:21:36 raspberrypi kernel: [    0.696621] [<80544c00>] (__driver_attach) from [<80542c0c>] (bus_for_each_dev+0x78/0xac)
+May 19 15:21:36 raspberrypi kernel: [    0.696640] [<80542c0c>] (bus_for_each_dev) from [<805443a0>] (driver_attach+0x2c/0x30)
+May 19 15:21:36 raspberrypi kernel: [    0.696659] [<805443a0>] (driver_attach) from [<80543de8>] (bus_add_driver+0x114/0x220)
+May 19 15:21:36 raspberrypi kernel: [    0.696678] [<80543de8>] (bus_add_driver) from [<805453a4>] (driver_register+0x88/0x104)
+May 19 15:21:36 raspberrypi kernel: [    0.696696] [<805453a4>] (driver_register) from [<80546444>] (__platform_driver_register+0x50/0x58)
+May 19 15:21:36 raspberrypi kernel: [    0.696713] [<80546444>] (__platform_driver_register) from [<80b39a60>] (dwc_otg_driver_init+0x74/0x120)
+May 19 15:21:36 raspberrypi kernel: [    0.696733] [<80b39a60>] (dwc_otg_driver_init) from [<80101c1c>] (do_one_initcall+0x54/0x17c)
+May 19 15:21:36 raspberrypi kernel: [    0.696753] [<80101c1c>] (do_one_initcall) from [<80b01058>] (kernel_init_freeable+0x224/0x2b8)
+May 19 15:21:36 raspberrypi kernel: [    0.696771] [<80b01058>] (kernel_init_freeable) from [<8079c1f0>] (kernel_init+0x18/0x124)
+May 19 15:21:36 raspberrypi kernel: [    0.696788] [<8079c1f0>] (kernel_init) from [<801080cc>] (ret_from_fork+0x14/0x28)
+May 19 15:21:36 raspberrypi kernel: [    0.696875] WARN::dwc_otg_hcd_init:1046: FIQ DMA bounce buffers: virt = 0xbad04000 dma = 0xfad04000 len=9024
+May 19 15:21:36 raspberrypi kernel: [    0.696902] FIQ FSM acceleration enabled for :
+May 19 15:21:36 raspberrypi kernel: [    0.696902] Non-periodic Split Transactions

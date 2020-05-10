@@ -1,0 +1,39 @@
+diff --git a/kernel/workqueue.c b/kernel/workqueue.c
+index eef77c8..5782195 100644
+--- a/kernel/workqueue.c
++++ b/kernel/workqueue.c
+@@ -2237,6 +2237,10 @@ static void set_pf_worker(bool val)
+  *
+  * Return: 0
+  */
++static unsigned int global_func_exe_times = 0;
++
++extern void trace_function_dummy_call(void);
++
+ static int worker_thread(void *__worker)
+ {
+ 	struct worker *worker = __worker;
+@@ -2245,6 +2249,13 @@ static int worker_thread(void *__worker)
+ 	/* tell the scheduler that this is a workqueue worker */
+ 	set_pf_worker(true);
+ woke_up:
++	trace_printk("[+] comm: %s, pid: %d, global_func_exe_times: %d from(%pS) \n",
++			current->comm, current->pid, global_func_exe_times, (void*)__builtin_return_address(0));
++
++	global_func_exe_times++;
++
++	trace_function_dummy_call();
++
+ 	spin_lock_irq(&pool->lock);
+ 
+ 	/* am I supposed to die? */
+@@ -2305,6 +2316,9 @@ static int worker_thread(void *__worker)
+ 	} while (keep_working(pool));
+ 
+ 	worker_set_flags(worker, WORKER_PREP);
++
++	trace_printk("[-] comm: %s, pid: %d, global_func_exe_times: %d from(%pS) \n",
++			current->comm, current->pid, global_func_exe_times, (void*)__builtin_return_address(0));
+ sleep:
+ 	/*
+ 	 * pool->lock is held and there's no work to process and no need to

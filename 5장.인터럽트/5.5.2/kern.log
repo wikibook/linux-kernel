@@ -1,0 +1,16 @@
+May 19 15:21:36 raspberrypi kernel: [    0.000000] Booting Linux on physical CPU 0x0
+May 19 15:21:36 raspberrypi kernel: [    0.000000] Linux version 4.19.30-v7+ (root@raspberrypi) (gcc version 6.3.0 20170516 (Raspbian 6.3.0-18+rpi1+deb9u1)) #11 SMP Sat May 19 15:15:59 KST 2019
+May 19 15:21:36 raspberrypi kernel: [    0.000000] CPU: ARMv7 Processor [410fd034] revision 4 (ARMv7), cr=10c5383d
+May 19 15:21:36 raspberrypi kernel: [    0.000000] CPU: div instructions available: patching division code
+May 19 15:21:36 raspberrypi kernel: [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+...
+May 19 15:21:36 raspberrypi kernel: [    6.909319] [+] irq_desc count debug start 
+May 19 15:21:36 raspberrypi kernel: [    6.909327] process: irq/86-mmc1 
+May 19 15:21:36 raspberrypi kernel: [    6.909335] irq num: 86 name:     mmc1 
+May 19 15:21:36 raspberrypi kernel: [    6.909342]       4823 
+May 19 15:21:36 raspberrypi kernel: [    6.909348]          0 
+May 19 15:21:36 raspberrypi kernel: [    6.909355]          0 
+May 19 15:21:36 raspberrypi kernel: [    6.909362]          0 
+May 19 15:21:36 raspberrypi kernel: [    6.909369] irq trigger times: 4823 
+May 19 15:21:36 raspberrypi kernel: [    6.909375] [-] irq_desc count debug end 
+ 
