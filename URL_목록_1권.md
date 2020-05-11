@@ -1,0 +1,583 @@
+- 10쪽
+    - <https://newsroom.koscom.co.kr/17371>
+- 20쪽
+    - <https://www.kernel.org/)>
+- 26쪽
+    - <https://git-scm.com/)>
+- 27쪽
+    - <https://github.com/raspberrypi/linux/tree/rpi-4.19.y>
+    - <https://elixir.bootlin.com/linux/v4.19.30/source>
+- 32쪽
+    - <https://www.raspberrypi.org/downloads/>
+- 35쪽
+    - <https://www.sdcard.org/downloads/>
+- 37쪽
+    - <https://sourceforge.net/projects/win32diskimager/>
+- 49쪽
+    - <https://downloads.raspberrypi.org/raspbian/images/>
+- 50쪽
+    - <https://www.raspberrypi.org/documentation/linux/kernel/building.md>
+- 53쪽
+    - <https://www.raspberrypi.org/documentation/linux/kernel/building.md>
+- 76쪽
+    - <https://www.unix.com/programming/148285-what-unbalanced-irq.html>
+- 77쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/manage.c>
+- 78쪽
+    - <https://www.unix.com/programming/148285-what-unbalanced-irq.html>
+- 82쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/proc.c>
+- 84쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/irqdesc.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/interrupt.h>
+- 91쪽
+    - <https://www.youtube.com/watch?v=rHgYy7JrP1c>
+- 92쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/process.c>
+- 93쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 95쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 115쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/handle.c>
+- 119쪽
+    - <https://www.zdnet.co.kr/view/?no=20190409144249>
+    - <https://www.trace32.com/>
+- 135쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/types.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/uapi/asm-generic/posix_types.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sys.c>
+- 139쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/fork.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/uapi/linux/sched.h>
+- 144쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/fork.c>
+- 145쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/fork.c>
+- 146쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/vhost/vhost.c>
+- 161쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/uapi/asm/signal.h>
+- 162쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/uapi/asm/signal.h>
+- 171쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/kthread.h>
+- 173쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/kthread.h>
+- 174쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/vhost/vhost.c>
+- 175쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/vhost/vhost.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/kthread.h>
+- 176쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/kthread.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/kthread.c>
+- 178쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/kthread.c>
+- 181쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/kthread.c>
+- 182쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/kthread.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/fork.c>
+- 184쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/fork.c>
+- 187쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/fork.c>
+- 189쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 192쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/exit.c>
+- 194쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/exit.c>
+- 195쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/signal.c>
+- 197쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 198쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 199쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 203쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 205쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/sched.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/sched.h>
+- 206쪽
+    - <https://elixir.bootlin.com/linux/v3.7/source/drivers/staging/android/lowmemorykiller.c>
+- 207쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/sched.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/exit.c>
+- 208쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/mm/fault.c>
+- 211쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/fork.c>
+- 213쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/cputime.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/cputime.c>
+- 214쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/stats.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 215쪽
+    - <https://people.redhat.com/anderson/crash_whitepaper/>
+    - <https://www.redhat.com/archives/crash-utility/2015-January/msg00024.html>
+- 217쪽
+    - <https://elixir.bootlin.com/linux/v4.19.30/ident/thread_info>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/x86/include/asm/thread_info.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/thread_info.h>
+- 219쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/thread_info.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/thread_info.h>
+- 220쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/thread_info.h>
+- 221쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/thread_info.h>
+- 222쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/switch_to.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/entry-v7m.S>
+- 224쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/thread_info.h>
+- 228쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/read_write.c>
+- 232쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/hardirq.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/preempt.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 235쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 236쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 237쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/mm/memcontrol.c>
+- 239쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/entry-armv.S>
+- 241쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/smp.h>
+- 242쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/smp.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 244쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/sched.h>
+- 246쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/fork.c>
+- 248쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/sched/task_stack.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/thread_info.h>
+- 250쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/fork.c>
+- 251쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/fork.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/thread_info.h>
+- 253쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/file.c>
+- 254쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/fork.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/asm-generic/current.h>
+- 255쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/asm-generic/preempt.h>
+- 256쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/smp.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/thread_info.h>
+- 263쪽
+    - <https://code.woboq.org/userspace/glibc/sysdeps/nptl/fork.c.html>
+- 266쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/uapi/linux/sched.h>
+- 267쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/uapi/asm/signal.h>
+- 268쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/entry-common.S>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/fork.c>
+- 275쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/exec.c>
+- 283쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 285쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/input/mouse/amimouse.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/input/mouse/amimouse.c>
+- 288쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/irqdesc.h>
+- 293쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/thread_info.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/thread_info.h>
+- 301쪽
+    - <https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?id=bbe097f092b0d13e9736bd2>
+- 304쪽
+    - <https://lore.kernel.org/patchwork/patch/835607/>
+- 305쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/preempt.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/preempt.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/asm-generic/preempt.h>
+- 306쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/thread_info.h>
+- 309쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/irqdesc.c>
+- 310쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/hardirq.h>
+- 311쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/hardirq.h>
+- 312쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/mmc/host/bcm2835-sdhost.c>
+- 315쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 316쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+    - <https://patchwork.kernel.org/patch/4864261>
+- 320쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/entry-armv.S>
+- 322쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/irqchip/irq-bcm2836.c>
+- 323쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/handle.c>
+- 327쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/irqdesc.c>
+- 328쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/irqdesc.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/handle.c>
+- 329쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/interrupt.h>
+- 331쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/interrupt.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/usb/host/dwc_otg/dwc_otg_driver.c>
+- 332쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/interrupt.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/manage.c>
+- 335쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/manage.c>
+- 340쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/usb/host/dwc_otg/dwc_otg_driver.c>
+- 344쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/interrupt.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/mmc/core/slot-gpio.c>
+- 347쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/interrupt.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/irqdesc.h>
+- 348쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/interrupt.h>
+- 349쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/interrupt.h>
+- 350쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/irqdesc.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/chip.c>
+- 351쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/internals.h>
+- 352쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/kernel_stat.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/irqdesc.c>
+- 357쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/gpu/drm/i2c/tda998x_drv.c>
+- 358쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/traps.c>
+- 363쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/proc.c>
+- 365쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/proc/interrupts.c>
+- 369쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/mailbox/bcm2835-mailbox.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/handle.c>
+- 371쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/handle.c>
+- 380쪽
+    - <https://elixir.bootlin.com/linux/v3.10.77/source/kernel/irq/handle.c>
+- 388쪽
+    - <https://forum.xda-developers.com/z5-compact/general/9-battery-drain-overnight-97-deep->
+- 390쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/interrupt.h>
+- 391쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/interrupt.h>
+- 392쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/manage.c>
+- 394쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/manage.c>
+- 395쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/manage.c>
+- 397쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/manage.c>
+- 398쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/mmc/host/bcm2835-mmc.c>
+- 399쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/devres.c>
+- 400쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/interrupt.h>
+- 401쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/manage.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/usb/dwc3/gadget.c>
+- 403쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/usb/dwc3/gadget.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/usb/dwc3/gadget.c>
+- 406쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/kthread.c>
+- 407쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/manage.c>
+- 408쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/kthread.h>
+- 409쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/kthread.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/manage.c>
+- 415쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/handle.c>
+- 417쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/handle.c>
+- 418쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/mmc/host/bcm2835-mmc.c>
+- 419쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/handle.c>
+- 420쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/handle.c>
+- 422쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/manage.c>
+- 424쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/manage.c>
+- 447쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 452쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/interrupt.h>
+- 454쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/interrupt.h>
+- 455쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 456쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/interrupt.h>
+- 458쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/fair.c>
+- 461쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+- 463쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/interrupt.h>
+- 464쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 465쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/interrupt.h>
+- 466쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 468쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/interrupt.h>
+- 469쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/interrupt.h>
+- 470쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/interrupt.h>
+- 471쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/interrupt.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 472쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 474쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/irqdesc.c>
+- 476쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 477쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/manage.c>
+- 478쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/interrupt.h>
+- 479쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 480쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 481쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 488쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 489쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 490쪽
+    - <https://zetawiki.com/wiki/Ksoftirqd>
+- 491쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 492쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/smpboot.c>
+    - <http://rousalome.egloos.com/9994595>
+- 493쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 494쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 495쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 496쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 498쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 500쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/preempt.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/asm-generic/preempt.h>
+- 501쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/asm-generic/preempt.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/thread_info.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 502쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/asm-generic/preempt.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/preempt.h>
+- 504쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 505쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 508쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/interrupt.h>
+- 509쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/interrupt.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/interrupt.h>
+- 510쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/interrupt.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/interrupt.h>
+- 511쪽
+    - <https://elixir.bootlin.com/linux/v4.20/source/drivers/tty/vt/keyboard.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/interrupt.h>
+- 512쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/tty/vt/keyboard.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/interrupt.h>
+- 513쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 516쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 517쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 519쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 520쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 524쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 528쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/proc/softirqs.c>
+- 529쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/kernel_stat.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/kernel_stat.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/kernel_stat.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/kernel_stat.h>
+- 530쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 533쪽
+    - <https://lwn.net/Articles/23634/>
+- 536쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 538쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 544쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/workqueue.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/workqueue.h>
+- 545쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 546쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 548쪽
+    - <https://www.kernel.org/doc/Documentation/power/freezing-of-tasks.txt>
+- 550쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/workqueue.h>
+- 551쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/tty/tty_buffer.c>
+- 552쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/workqueue.h>
+- 553쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/workqueue.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/tty/tty_buffer.c>
+- 555쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/workqueue.h>
+- 556쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/workqueue.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/tty/vt/vt.c>
+- 557쪽
+    - <https://lists.gt.net/linux/kernel/2022989>
+- 559쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/tty/vt/vt.c>
+- 560쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/workqueue.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 561쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/workqueue.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 564쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 566쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 574쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 576쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 577쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 581쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 582쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 584쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 591쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue_internal.h>
+- 592쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 594쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 595쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 599쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 600쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 601쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 604쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 606쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 607쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 609쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 611쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 612쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/workqueue.h>
+- 618쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 619쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 631쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/mailbox/bcm2835-mailbox.c>
+- 632쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/mailbox/bcm2835-mailbox.c>
+- 633쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/mailbox/bcm2835-mailbox.c>
+- 634쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/mailbox/bcm2835-mailbox.c>
+- 642쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/workqueue.h>
+- 645쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/thermal/da9062-thermal.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/workqueue.h>
+- 646쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/workqueue.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/workqueue.h>
+- 647쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+- 648쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/timer.h>
+- 649쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/mmc/host/bcm2835.c>
+- 650쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/workqueue.h>
+- 651쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 653쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 654쪽
+    - <https://www.unix.com/programming/148285-what-unbalanced-irq.html>
+    - <https://www.linuxquestions.org/questions/programming-9/problem-with-interrupt->
+- 658쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 662쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/mailbox/bcm2835-mailbox.c>
