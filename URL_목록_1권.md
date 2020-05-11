@@ -1,9 +1,9 @@
 - 10쪽
     - <https://newsroom.koscom.co.kr/17371>
 - 20쪽
-    - <https://www.kernel.org/)>
+    - <https://www.kernel.org/>
 - 26쪽
-    - <https://git-scm.com/)>
+    - <https://git-scm.com/>
 - 27쪽
     - <https://github.com/raspberrypi/linux/tree/rpi-4.19.y>
     - <https://elixir.bootlin.com/linux/v4.19.30/source>
