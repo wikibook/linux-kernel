@@ -1,0 +1,939 @@
+- 9쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/timer.h>
+- 10쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/base/power/wakeup.c>
+- 11쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timekeeping.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/vmlinux.lds.S>
+- 13쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timekeeping.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/tick-sched.c>
+- 18쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/jiffies.h>
+- 19쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/pstore/platform.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/ia64/kernel/salinfo.c>
+- 20쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/jiffies.h>
+- 22쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/jiffies.h>
+- 24쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/jiffies.h>
+- 25쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 26쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 29쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/timer.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/timer.h>
+- 31쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/timer.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+- 32쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+- 33쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/mmc/host/bcm2835-sdhost.c>
+- 36쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/mmc/host/vub300.c>
+- 37쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/mmc/host/bcm2835-sdhost.c>
+- 38쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/mmc/host/bcm2835-sdhost.c>
+- 39쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/timer.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+- 40쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/timer.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 41쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+- 46쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/timer.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/timer.h>
+- 47쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+- 48쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+- 49쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+- 54쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+- 56쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+- 57쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 59쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+- 60쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+- 62쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+- 63쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+- 64쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+- 66쪽
+    - <https://lore.kernel.org/patchwork/patch/318839/>
+    - <https://lore.kernel.org/patchwork/patch/318884/>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+- 70쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+- 71쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+- 80쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/usb/core/hcd.c>
+- 88쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/usb/core/hcd.c>
+- 90쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/trace/events/timer.h>
+- 94쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/softirq.c>
+- 95쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+- 97쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+- 105쪽
+    - <https://lore.kernel.org/patchwork/patch/880120/>
+- 106쪽
+    - <https://lore.kernel.org/lkml/CAARE==e6obTMLBeo3t2oJuwwtv3zfei7sUhREJwDcqUEGFPdAg@mail.gmail.com/>
+- 108쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/tty/tty_buffer.c>
+- 114쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/exit.c>
+- 119쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/exit.c>
+- 124쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/exit.c>
+- 126쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 138쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/mm/slub.c>
+- 158쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/spinlock_types.h>
+- 159쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/spinlock_types.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/spinlock_types.h>
+- 162쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/kthread.c>
+- 168쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/spinlock.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/spinlock.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/locking/spinlock.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/spinlock_api_smp.h>
+- 169쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/lockdep.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/spinlock.h>
+    - <https://elixir.bootlin.com/linux/v4.19.40/ident>
+- 171쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/spinlock.h>
+- 177쪽
+    - <http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.faqs/ka15473.html>
+- 178쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/kthread.c>
+- 184쪽
+    - <http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0489i/CIHHJCFE.html>
+- 187쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/spinlock.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/locking/spinlock.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/spinlock_api_smp.h>
+- 188쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/spinlock.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/spinlock.h>
+- 192쪽
+    - <https://elixir.bootlin.com/linux/v4.14.49/source/drivers/mfd/rtsx_pcr.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/spinlock.h>
+- 193쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/spinlock_api_smp.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/spinlock_api_smp.h>
+- 194쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/irqflags.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/irqflags.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/irqflags.h>
+- 195쪽
+    - <http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0203ik/ch02s08s01.html>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/spinlock_api_smp.h>
+- 196쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/irqflags.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/irqflags.h>
+- 198쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/base/power/qos.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/spinlock.h>
+- 199쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/spinlock_api_smp.h>
+- 200쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/spinlock_api_smp.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/irqflags.h>
+- 201쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/irqflags.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/irqflags.h>
+- 202쪽
+    - <http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0203ik/ch02s08s01.html>
+- 203쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/spinlock_api_smp.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/irqflags.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/irqflags.h>
+- 204쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/irqflags.h>
+- 206쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/cpufreq/cpufreq_governor.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/mutex.h>
+- 207쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/mutex.h>
+- 210쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/locking/mutex.c>
+- 211쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/locking/mutex.c>
+- 212쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/locking/mutex.c>
+- 213쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/locking/mutex.c>
+- 214쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/locking/mutex.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/locking/mutex.c>
+- 215쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/sched.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/locking/mutex.c>
+- 216쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/locking/mutex.c>
+- 218쪽
+    - <https://lkml.org/lkml/2018/8/22/570>
+- 220쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/locking/mutex.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/locking/mutex.c>
+- 222쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/locking/mutex.c>
+- 223쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 227쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/locking/spinlock.c>
+- 229쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/locking/spinlock.c>
+- 234쪽
+    - <https://lore.kernel.org/patchwork/patch/772839/>
+- 237쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/locking/mutex.c>
+- 238쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/locking/mutex.c>
+- 239쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/locking/mutex.c>
+- 240쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/locking/mutex.c>
+- 250쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/sched.h>
+- 256쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/uapi/linux/sched.h>
+- 260쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/sched/prio.h>
+- 261쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/sched.h>
+- 262쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/sched.h>
+- 263쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/sched.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/sched.h>
+- 264쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 270쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/fork.c>
+- 271쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 272쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/hrtimer.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 274쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/wait.h>
+- 275쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/wait.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/wait.c>
+- 276쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/sched.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/signal.c>
+- 277쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/wait.h>
+- 278쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/locking/mutex.c>
+- 279쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/locking/mutex.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/locking/mutex.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/locking/mutex.c>
+- 280쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+- 281쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/i2c/busses/i2c-tegra.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+- 282쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/completion.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/completion.c>
+- 285쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/sched.h>
+- 286쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/sched.h>
+- 288쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/sched.h>
+- 289쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/sched.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/rt.c>
+- 292쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/sched.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/sched.h>
+- 295쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/sched/rt.h>
+- 296쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/sched.h>
+- 299쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 300쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 302쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/sched.h>
+- 303쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/sched.h>
+- 304쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/sched.h>
+- 305쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/sched.h>
+- 306쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/fair.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/sched.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 307쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/fair.c>
+- 308쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/sched.h>
+- 312쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 313쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/sched.h>
+- 315쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 316쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 318쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/fair.c>
+- 320쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/fair.c>
+- 321쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 323쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/fair.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/fair.c>
+- 324쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/fair.c>
+- 327쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/fair.c>
+- 328쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/fair.c>
+- 330쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/fair.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/fair.c>
+- 333쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/fair.c>
+- 335쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/module.c>
+- 336쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/module.c>
+- 338쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/entry-armv.S>
+- 341쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/entry-armv.S>
+- 344쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/entry-armv.S>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 349쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/entry-armv.S>
+- 350쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/entry-common.S>
+- 351쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/asm-offsets.c>
+- 352쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/thread_info.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/thread_info.h>
+- 353쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/entry-common.S>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/signal.c>
+- 357쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/entry-common.S>
+- 358쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/entry-header.S>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/thread_info.h>
+- 359쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/thread_info.h>
+- 360쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/entry-header.S>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/signal.c>
+- 363쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/preempt.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/preempt.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/asm-generic/preempt.h>
+- 364쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/preempt.h>
+- 365쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/asm-generic/preempt.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/preempt.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/asm-generic/preempt.h>
+- 366쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/asm-generic/preempt.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/thread_info.h>
+- 367쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/asm-generic/preempt.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 368쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/preempt.h>
+- 369쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/net/packet/af_packet.c>
+- 370쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/signal.c>
+- 372쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/timer.c>
+    - <https://lkml.org/lkml/2010/5/13/638>
+- 375쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 376쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 377쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 378쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 379쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 380쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/sched.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/sched.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/thread_info.h>
+- 381쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm64/include/asm/thread_info.h>
+- 382쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 384쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/sched.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/sched.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/thread_info.h>
+- 385쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/bitops.h>
+- 390쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/thread_info.h>
+- 394쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 395쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/switch_to.h>
+- 396쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/entry-armv.S>
+- 404쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 408쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/trace/events/sched.h>
+- 411쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 412쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 415쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/time/hrtimer.c>
+- 417쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/locking/semaphore.c>
+- 419쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/workqueue.c>
+- 421쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/irq/handle.c>
+- 425쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 446쪽
+    - <https://code.woboq.org/userspace/glibc/stdlib/exit.c.html>
+- 450쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/entry-common.S>
+- 453쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/entry-common.S>
+- 456쪽
+    - <http://rousalome.egloos.com/9998798>
+- 462쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/syscalls.h>
+- 464쪽
+    - <https://android.googlesource.com/platform/system/core/+/master/init/uevent_listene.cpp>
+- 465쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/syscalls.h>
+- 466쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/read_write.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/read_write.c>
+- 467쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/read_write.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/uapi/asm-generic/errno-base.h>
+- 468쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/uapi/asm/signal.h>
+- 469쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/reboot.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/uapi/asm-generic/errno-base.h>
+- 471쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/entry-common.S>
+- 474쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/entry-common.S>
+- 475쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/entry-header.S>
+- 476쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/thread_info.h>
+- 477쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/entry-header.S>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/signal.c>
+- 479쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/entry-common.S>
+- 480쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/entry-header.S>
+- 482쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/exit.c>
+- 483쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/syscalls.h>
+- 484쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/read_write.c>
+- 491쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/fork.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/read_write.c>
+- 513쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/uapi/asm/signal.h>
+- 528쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/syscalls.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/signal.c>
+- 531쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/signal.c>
+- 534쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/uapi/asm/signal.h>
+- 538쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/syscalls.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/signal.c>
+- 542쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/syscalls.h>
+- 543쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/uapi/asm/signal.h>
+- 544쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/signal.c>
+- 545쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/signal.c>
+- 548쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/signal.c>
+- 550쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/signal.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/signal.c>
+- 551쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/signal.c>
+- 553쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/syscalls.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/signal.c>
+- 554쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/signal.c>
+- 555쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/signal.c>
+- 556쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/signal.c>
+- 557쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/uapi/asm/signal.h>
+- 561쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/tty/n_tty.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/signal.c>
+- 562쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/signal.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/tty/n_tty.c>
+- 564쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/mm/oom_kill.c>
+- 565쪽
+    - <https://serverfault.com/questions/652362/understanding-oom-killer-logs>
+- 567쪽
+    - <https://elixir.bootlin.com/linux/v4.4.160/source/drivers/staging/android/lowmemoryiller.c>
+- 568쪽
+    - <https://android.stackexchange.com/questions/89544/lowmemorykiller-is-killing-loads-of-system-apps->
+- 569쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/signal.c>
+- 574쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/signal.c>
+- 576쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/sched/signal.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/signal.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/sched.h>
+- 577쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 579쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/entry-common.S>
+- 580쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/thread_info.h>
+- 581쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/signal.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/sched.h>
+- 582쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/signal.c>
+- 584쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/entry-armv.S>
+- 585쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/entry-common.S>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/include/asm/thread_info.h>
+- 587쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/signal.c>
+- 588쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/signal.c>
+- 590쪽
+    - <https://lwn.net/Articles/17744/>
+    - <http://rousalome.egloos.com/10009481>
+- 592쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/signal.c>
+- 596쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/signal.c>
+- 599쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/signal.c>
+- 600쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/signal.c>
+- 601쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/signal.c>
+- 602쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/sigreturn_codes.S>
+- 603쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/signal.c>
+- 605쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/syscalls.h>
+- 606쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/signal.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/signal.c>
+- 609쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/signal.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/signal.c>
+- 621쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/arch/arm/kernel/signal.c>
+- 638쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/inode.c>
+- 639쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/fs.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/fs.h>
+- 645쪽
+    - <https://github.c9om/raspberrypi/linux/blob/rpi-4.19.y/fs/open.c>
+- 650쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/fs.h>
+- 651쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/uapi/asm-generic/fcntl.h>
+- 653쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/fs.h>
+- 657쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/syscalls.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/open.c>
+- 658쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/open.c>
+- 659쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/file.c>
+- 660쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/open.c>
+- 661쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/syscalls.h>
+- 662쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/read_write.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/read_write.c>
+- 663쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/read_write.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/file.h>
+- 664쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/file.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/fdtable.h>
+- 665쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/read_write.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/read_write.c>
+- 667쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/read_write.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/read_write.c>
+- 668쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/read_write.c>
+- 669쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/syscalls.h>
+- 670쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/read_write.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/read_write.c>
+- 671쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/read_write.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/read_write.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/file.h>
+- 672쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/read_write.c>
+- 673쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/read_write.c>
+- 674쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/read_write.c>
+- 676쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/uapi/linux/fs.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/syscalls.h>
+- 677쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/read_write.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/read_write.c>
+- 678쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/read_write.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/read_write.c>
+- 679쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/read_write.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/open.c>
+- 680쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/ext4/file.c>
+- 681쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/proc/inode.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/open.c>
+- 682쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/file.c>
+- 689쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/fs.h>
+- 691쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/fs.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/fs.h>
+- 692쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/fs.h>
+- 693쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/inode.c>
+- 694쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/inode.c>
+- 695쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/inode.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/fs-writeback.c>
+- 696쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/fs-writeback.c>
+- 697쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/super.c>
+- 698쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/sync.c>
+- 699쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/statfs.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/super.c>
+- 700쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/namespace.c>
+- 702쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/inode.c>
+- 703쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/inode.c>
+- 705쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/fs-writeback.c>
+- 707쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/syscalls.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/statfs.c>
+- 708쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/statfs.c>
+- 709쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/statfs.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/statfs.c>
+- 710쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/ext4/super.c>
+- 711쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/statfs.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/statfs.c>
+- 713쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/fs.h>
+- 714쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/uapi/linux/stat.h>
+- 715쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/namei.c>
+- 716쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/uapi/linux/stat.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/open.c>
+- 717쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/fs.h>
+- 718쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/fs.h>
+- 719쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/namei.c>
+- 720쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/namei.c>
+- 721쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/namei.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/namei.c>
+- 722쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/namei.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/namei.c>
+- 723쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/namei.c>
+- 724쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/namei.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/namei.c>
+- 725쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/namei.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/namei.c>
+- 729쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/stat.c>
+- 730쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/fs.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/stat.c>
+- 731쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/stat.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/stat.c>
+- 734쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/stat.c>
+- 735쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/stat.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/stat.c>
+- 737쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/dcache.h>
+- 750쪽
+    - <https://elixir.bootlin.com/linux/v4.4.180/source/arch/arm/include/uapi/asm/unistd.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/open.c>
+- 752쪽
+    - <https://elixir.bootlin.com/linux/v4.4.180/source/arch/arm/include/uapi/asm/unistd.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/open.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/fs.h>
+- 753쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/ext4/file.c>
+- 754쪽
+    - <https://elixir.bootlin.com/linux/v4.4.180/source/arch/arm/include/uapi/asm/unistd.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/read_write.c>
+- 755쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/fs.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/ext4/file.c>
+- 757쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/read_write.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/read_write.c>
+- 758쪽
+    - <https://elixir.bootlin.com/linux/v4.4.180/source/arch/arm/include/uapi/asm/unistd.h>
+- 759쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/sync.c>
+- 760쪽
+    - <https://elixir.bootlin.com/linux/v4.4.180/source/arch/arm/include/uapi/asm/unistd.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/file.c>
+- 767쪽
+    - <https://elixir.bootlin.com/linux/v4.4.180/source/arch/arm/include/uapi/asm/unistd.h>
+- 768쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/statfs.c>
+- 776쪽
+    - <https://elixir.bootlin.com/linux/v4.4.180/source/arch/arm/include/uapi/asm/unistd.h>
+- 777쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/statfs.c>
+- 778쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/fs/statfs.c>
+- 794쪽
+    - <https://www.raspberrypi.org/forums/viewtopic.php?t=155181>
+    - <http://infocenter.arm.com/>
+    - <https://static.docs.arm.com/ddi0406/c/DDI0406C_C_arm_architecture_reference_manual.pdf>
+- 807쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/mmzone.h>
+- 808쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/mmzone.h>
+- 809쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/mmzone.h>
+- 812쪽
+    - <https://github.com/elastic/elasticsearch/issues/23842>
+- 814쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/mm/vmstat.c>
+- 815쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/mm/vmstat.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/mm/vmstat.c>
+- 816쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/mm/vmstat.c>
+- 817쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/vmstat.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/mmzone.h>
+- 819쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/sched/core.c>
+- 820쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/base/regmap/regmap-debugfs.c>
+- 822쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/mm/page_alloc.c>
+- 823쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/gfp.h>
+- 824쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/mmc/core/block.c>
+- 826쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/gfp.h>
+- 836쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/fork.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/slub_def.h>
+- 839쪽
+    - <https://elixir.bootlin.com/linux/v4.19.30/ident/kmem_cache>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/mm/Makefile>
+- 842쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/kernel/async.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/slab.h>
+- 843쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/mm/slab_common.c>
+- 846쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/slub_def.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/slab.h>
+- 848쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/slab.h>
+- 849쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/slab.h>
+- 850쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/slab.h>
+- 852쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/mm/slab_common.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/mm/slub.c>
+- 853쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/mm/slub.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/mm/slub.c>
+- 857쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/mm/slub.c>
+- 859쪽
+    - <https://elinux.org/Kernel_dynamic_memory_analysis>
+- 862쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/trace/events/kmem.h>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/trace/events/kmem.h>
+- 869쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/usb/host/dwc_common_port/dwc_common_linux.c>
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/include/linux/slab.h>
+- 870쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/drivers/usb/host/dwc_common_port/dwc_common_linux.c>
+- 888쪽
+    - <https://github.com/raspberrypi/linux/tree/rpi-4.19.y/kernel/watchdog.c>
+- 889쪽
+    - <https://github.com/raspberrypi/linux/blob/rpi-4.19.y/init/main.c>
+    - <https://github.com/raspberrypi/linux/tree/rpi-4.19.y/include/linux/init.h>
+- 891쪽
+    - <https://github.com/raspberrypi/linux/tree/rpi-4.19.y/kernel/time/timer.c>
+- 892쪽
+    - <https://github.com/raspberrypi/linux/tree/rpi-4.19.y/mm/slub.c>
+- 893쪽
+    - <https://github.com/raspberrypi/linux/tree/rpi-4.19.y/kernel/exit.c>
+    - <https://github.com/raspberrypi/linux/tree/rpi-4.19.y/arch/arm/mach-omap2/pm.c>
+- 894쪽
+    - <https://github.com/raspberrypi/linux/tree/rpi-4.19.y/kernel/workqueue.c>
+- 895쪽
+    - <https://github.com/raspberrypi/linux/tree/rpi-4.19.y/kernel/workqueue.c>
+- 897쪽
+    - <https://stackoverflow.com/>
+- 898쪽
+    - <http://rousalome.egloos.com/9969513>
+- 899쪽
+    - <http://www.kroah.com/log>
+    - <https://kblog.popekim.com>
+    - <https://kldp.org/>
+- 900쪽
+    - <https://code.woboq.org/linux/linux/include/generated/asm-offsets.h.html>
+- 901쪽
+    - <http://vger.kernel.org/vger-lists.html>
+- 910쪽
+    - <https://kernel.googlesource.com/pub/scm/linux/kernel/git/next/linux-next>
+    - <https://kernel.googlesource.com/pub/scm/linux/>
+- 911쪽
+    - <https://kernel.googlesource.com/pub/scm/linux/kernel/git/next/linux-next/>
+    - <https://kernel.googlesource.com/pub/scm/linux/kernel/git/>
+- 912쪽
+    - <https://elixir.bootlin.com/linux/v5.3/source/mm/vmalloc.c>
+- 924쪽
+    - <https://lkml.org/lkml/2019/8/30/952>
+    - <https://patchwork.kernel.org/patch/11122851/>
+- 925쪽
+    - <http://ozlabs.org/>
+    - <http://ozlabs.org/>
+    - <http://lkml.kernel.org/r/20190830035716.GA190684@LGEARND20B15>
+- 928쪽
+    - <https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/commit/?id=7ea362427c1>
+    - <https://elixir.bootlin.com/linux/v5.4-rc1/source/mm/vmalloc.c>
+- 930쪽
+    - <https://lkml.org/lkml/2019/8/22/696>
+- 931쪽
+    - <http://rousalome.egloos.com/category/Kernel_Contribution_Tips>
