@@ -16,7 +16,7 @@ echo function > /sys/kernel/debug/tracing/current_tracer
 sleep 1
 echo "function tracer enabled"
 
-echo bcm2835_mbox_threaded_irq bcm2835_mbox_irq > /sys/kernel/debug/tracing/set_ftrace_filter
+echo bcm2835_mmc_thread_irq bcm2835_mmc_irq > /sys/kernel/debug/tracing/set_ftrace_filter
 sleep 1
 echo "set_ftrace_filter enabled"
 
